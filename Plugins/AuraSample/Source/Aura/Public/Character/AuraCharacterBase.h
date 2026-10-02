@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "AbilitySystemInterface.h"
-#include "GameFramework/Character.h"
+#include "Character/MGCharacterBase.h"
 #include "Interaction/CombatInterface.h"
 /* 协变返回 UAuraAbilitySystemComponent* 需要其完整定义 */
 #include "AbilitySystem/AuraAbilitySystemComponent.h"
@@ -24,7 +24,7 @@ class UMaterialInstanceDynamic;
 	所有角色的基类（主角和敌人）
 */
 UCLASS(Abstract)  // Abstract来控制这个类不能被实例化
-class AURA_API AAuraCharacterBase : public ACharacter, public IAbilitySystemInterface, public ICombatInterface
+class AURA_API AAuraCharacterBase : public AMGCharacterBase, public IAbilitySystemInterface, public ICombatInterface
 {
 	GENERATED_BODY()
 

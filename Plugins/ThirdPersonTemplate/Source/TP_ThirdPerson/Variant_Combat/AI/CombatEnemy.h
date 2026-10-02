@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
+#include "Character/MGCharacterBase.h"
 #include "CombatAttacker.h"
 #include "CombatDamageable.h"
 #include "Animation/AnimMontage.h"
@@ -28,7 +28,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnEnemyDied);
  *  Its bundled AI Controller runs logic through StateTree
  */
 UCLASS(abstract)
-class ACombatEnemy : public ACharacter, public ICombatAttacker, public ICombatDamageable
+class ACombatEnemy : public AMGCharacterBase, public ICombatAttacker, public ICombatDamageable
 {
 	GENERATED_BODY()
 

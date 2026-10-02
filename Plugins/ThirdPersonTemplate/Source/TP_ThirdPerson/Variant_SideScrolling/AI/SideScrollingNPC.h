@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
+#include "Character/MGCharacterBase.h"
 #include "SideScrollingInteractable.h"
 #include "SideScrollingNPC.generated.h"
 
@@ -13,7 +13,7 @@
  *  It can be temporarily deactivated through Actor interactions
  */
 UCLASS(abstract)
-class ASideScrollingNPC : public ACharacter, public ISideScrollingInteractable
+class ASideScrollingNPC : public AMGCharacterBase, public ISideScrollingInteractable
 {
 	GENERATED_BODY()
 

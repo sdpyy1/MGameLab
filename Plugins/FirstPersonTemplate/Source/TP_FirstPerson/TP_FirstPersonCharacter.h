@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
+#include "Character/MGCharacterBase.h"
 #include "Logging/LogMacros.h"
 #include "TP_FirstPersonCharacter.generated.h"
 
@@ -19,7 +19,7 @@ DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
  *  A basic first person character
  */
 UCLASS(abstract)
-class ATP_FirstPersonCharacter : public ACharacter
+class ATP_FirstPersonCharacter : public AMGCharacterBase
 {
 	GENERATED_BODY()
 

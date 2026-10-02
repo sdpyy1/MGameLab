@@ -13,6 +13,7 @@ public class TP_ThirdPerson : ModuleRules
 			"Core",
 			"CoreUObject",
 			"Engine",
+			"MGameLabCore",
 			"InputCore",
 			"EnhancedInput",
 			"AIModule",

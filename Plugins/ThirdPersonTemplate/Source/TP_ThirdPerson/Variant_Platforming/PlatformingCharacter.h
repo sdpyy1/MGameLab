@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
+#include "Character/MGCharacterBase.h"
 #include "Animation/AnimInstance.h"
 #include "PlatformingCharacter.generated.h"
 
@@ -23,7 +23,7 @@ class UAnimMontage;
  *  - Dash
  */
 UCLASS(abstract)
-class APlatformingCharacter : public ACharacter
+class APlatformingCharacter : public AMGCharacterBase
 {
 	GENERATED_BODY()
 

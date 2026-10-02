@@ -18,6 +18,10 @@
   ],
   "Plugins": [
     {
+      "Name": "MGameLabCore",
+      "Enabled": true
+    },
+    {
       "Name": "GameplayAbilities",
       "Enabled": true
     },
