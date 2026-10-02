@@ -1,0 +1,9 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Template Shared Assets",
+  "Description": "Shared assets required by the Unreal Engine first and third person templates.",
+  "Category": "MGameLab|Templates",
+  "CanContainContent": true
+}

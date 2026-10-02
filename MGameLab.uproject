@@ -1,0 +1,42 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{2A2BF8B4-4E76-AB2A-BAB1-83A883B0EF78}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MGameLab",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MGameLabCore",
+			"Enabled": true
+		},
+		{
+			"Name": "TemplateSharedAssets",
+			"Enabled": true
+		},
+		{
+			"Name": "ThirdPersonTemplate",
+			"Enabled": true
+		},
+		{
+			"Name": "FirstPersonTemplate",
+			"Enabled": true
+		},
+		{
+			"Name": "AuraSample",
+			"Enabled": true
+		},
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}

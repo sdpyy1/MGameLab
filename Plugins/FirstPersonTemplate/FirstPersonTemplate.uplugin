@@ -1,0 +1,18 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "First Person Template",
+  "Description": "Unreal Engine 5.6 first person template and variants.",
+  "Category": "MGameLab|Templates",
+  "CanContainContent": true,
+  "Modules": [
+    { "Name": "TP_FirstPerson", "Type": "Runtime", "LoadingPhase": "Default" }
+  ],
+  "Plugins": [
+    { "Name": "TemplateSharedAssets", "Enabled": true },
+    { "Name": "EnhancedInput", "Enabled": true },
+    { "Name": "StateTree", "Enabled": true },
+    { "Name": "GameplayStateTree", "Enabled": true }
+  ]
+}

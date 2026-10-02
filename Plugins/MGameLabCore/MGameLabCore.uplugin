@@ -1,0 +1,12 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "MGameLab Core",
+  "Description": "Shared runtime foundations for internal projects.",
+  "Category": "MGameLab",
+  "CanContainContent": false,
+  "Modules": [
+    { "Name": "MGameLabCore", "Type": "Runtime", "LoadingPhase": "Default" }
+  ]
+}

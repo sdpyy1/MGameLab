@@ -1,0 +1,30 @@
+# Locally installed third-party content is intentionally excluded from GitHub.
+/Content/Thirdparty/
+
+# Unreal Engine generated files.
+**/Binaries/
+**/DerivedDataCache/
+**/Intermediate/
+**/Saved/
+**/Content/Collections/
+**/Content/Developers/
+
+# IDE and local workspace files.
+/.idea/
+/.vs/
+/.vscode/
+*.sln
+*.slnx
+*.suo
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.ipch
+*.user
+*.DotSettings.user
+
+# Operating system files.
+.DS_Store
+Thumbs.db
+Desktop.ini
