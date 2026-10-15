@@ -8,9 +8,22 @@
 			"Name": "MGameLab",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "IVSmokeProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
+		{
+			"Name": "StateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayStateTree",
+			"Enabled": true
+		},
 		{
 			"Name": "MGameLabCore",
 			"Enabled": true
@@ -32,11 +45,18 @@
 			"Enabled": true
 		},
 		{
+			"Name": "IVSmoke",
+			"Enabled": true
+		},
+		{
 			"Name": "ModelingToolsEditorMode",
 			"Enabled": true,
 			"TargetAllowList": [
 				"Editor"
 			]
 		}
+	],
+	"AdditionalPluginDirectories": [
+		"../Unreal_mcp/plugins"
 	]
 }
